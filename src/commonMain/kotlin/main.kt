@@ -20,6 +20,6 @@ object MyModule : Module() {
 
 class MainScene() : Scene() {
 	override suspend fun Container.sceneInit() {
-//		uiTextButton(text="1")
+		uiTextButton(text="1")
 	}
 }
